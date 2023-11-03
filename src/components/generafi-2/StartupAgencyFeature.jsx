@@ -130,12 +130,12 @@ const StartupAgencyFeature = () => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div className="feature__content-btm">
                 <div className="feature__content-item fade_bottom_4">
-                <a
+                <Link
                   className="btn-started btn-hover"
                   href="/contact"
-                >
+                />
                   En savoir plus
-                </a>
+                
                 </div>
               </div>
             </div>
