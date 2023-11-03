@@ -21,7 +21,7 @@ export default function Comptabilte2 ( ) {
                 <meta name="viewport" content="width=device-wedith, initial-scale=1"/>
             </Head>
             <main>
-                <RootLayout header="header4" footer="footer3">
+                <RootLayout header="header4" footer="footer4">
                     <ComptaHero2/>
                     <ComptaAbout/>
                     <ComptaVideo/>

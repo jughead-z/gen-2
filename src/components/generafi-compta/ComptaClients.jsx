@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import { Power1, gsap } from "gsap";
 import { ScrollTrigger, ScrollSmoother } from "@/plugins";
-import Home7m from "../../../public/assets/imgs/home-7/m.png";
-import Home7w from "../../../public/assets/imgs/home-7/w.png";
-import Home7fwa from "../../../public/assets/imgs/home-7/fwa.png";
-import Home7webby from "../../../public/assets/imgs/home-7/webby.png";
+import Home7m from "../../../public/assets/imgs/home-7/o.png";
+import Home7w from "../../../public/assets/imgs/home-7/x.png";
+import Home7fwa from "../../../public/assets/imgs/home-7/h.png";
+import Home7webby from "../../../public/assets/imgs/home-7/b.png";
 import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
@@ -123,7 +123,7 @@ const ComptaClients = () => {
                         src={Home7m}
                         alt="Image"
                       />
-                      <h3 className="title">1x Mobile Award</h3>
+                      <h3 className="title">Auto Hall</h3>
                     </div>
                     <div className="award__item-7 zoom_in">
                       <Image
@@ -133,7 +133,7 @@ const ComptaClients = () => {
                         src={Home7w}
                         alt="Image"
                       />
-                      <h3 className="title">2x Best Website</h3>
+                      <h3 className="title">Pharma 5</h3>
                     </div>
                     <div className="award__item-7 zoom_in">
                       <Image
@@ -143,7 +143,7 @@ const ComptaClients = () => {
                         src={Home7fwa}
                         alt="Image"
                       />
-                      <h3 className="title">2x Web the Day</h3>
+                      <h3 className="title">Hyundai</h3>
                     </div>
                     <div className="award__item-7 zoom_in">
                       <Image
@@ -153,7 +153,7 @@ const ComptaClients = () => {
                         src={Home7webby}
                         alt="Image"
                       />
-                      <h3 className="title">3x Web Animation</h3>
+                      <h3 className="title">Saham</h3>
                     </div>
                   </div>
                 </div>
