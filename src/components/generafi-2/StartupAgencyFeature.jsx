@@ -8,6 +8,7 @@ import Feature from "../../../public/assets/imgs/feature/4/feature.jpg";
 import Icon1 from "../../../public/assets/imgs/feature/4/icon-1.png";
 import Icon2 from "../../../public/assets/imgs/feature/4/icon-2.png";
 import Image from "next/image";
+import { Link } from "react-router-dom";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -130,12 +131,9 @@ const StartupAgencyFeature = () => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div className="feature__content-btm">
                 <div className="feature__content-item fade_bottom_4">
-                <Link
-                  className="btn-started btn-hover"
-                  href="/contact"
-                />
+                <Link className="btn-started btn-hover" href="/contact">
                   En savoir plus
-                
+                </Link>
                 </div>
               </div>
             </div>
